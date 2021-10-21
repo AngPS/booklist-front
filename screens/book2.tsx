@@ -86,7 +86,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     body:{
-        fontSize: 16
+        fontSize: 16,
+        textAlign: 'center'
     },
     buttonView: {
         width: '100%',

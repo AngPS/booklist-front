@@ -14,9 +14,6 @@ import { onError } from "@apollo/client/link/error";
 
 LogBox.ignoreAllLogs();
 
-
-
-
 // const errorLink = onError(({ graphqlErrors, networkError }:any) => {
 //   if (graphqlErrors) {
 //     graphqlErrors.map(({ message, location, path }:any) => {
