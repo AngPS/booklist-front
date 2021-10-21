@@ -8,7 +8,6 @@ export default function Book({ route, navigation }:any) {
     useEffect(() => {
         navigation.setOptions({ title: pr.bookID.title })
         }, [isFocused])
-    navigation.setOptions({ title: 'Updated!' })
     const [stat, setStat] = useState(pr.status == "Saved")
     const updateStatus = async (statusID:string, stat:string) => {
         const updateStat = await fetch ("http://10.0.2.2:3000/graphql", {
